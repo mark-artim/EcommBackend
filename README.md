@@ -16,7 +16,7 @@ This project is a ecommerce back end set of api's that allows for basic CRUD ope
 ## Installation
 Clone repository and install dependencies: `npm init, npm run seed, npm install, npm start`
 
-Github repsitory [NoteTaker](https://github.com/mark-artim/EcommBackend)
+Github repsitory [EcommBackend](https://github.com/mark-artim/EcommBackend)
 
 ## Usage
 
@@ -27,7 +27,7 @@ Testing of the api's can be done using insomnia or your favorite api testing too
 
 <br>
 See the Employee Tracker in action in this how to video:<br><br>
-[INSTRUCTIONAL VIDEO - USING THE TOOL](https://drive.google.com/file/d/1LeVSaMwIy2VqG7YRTR0AmTv6F36mGuYw/view)
+[INSTRUCTIONAL VIDEO - USING THE TOOL](https://drive.google.com/file/d/1ulAi4z4VvOy8-vKhcM52_qaoNZVqtf68/view)
 
 
 ## Credits

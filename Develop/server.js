@@ -2,6 +2,8 @@ const express = require('express');
 const routes = require('./routes');
 const Sequelize = require('sequelize');
 // import sequelize connection
+const sequelize = require('./config/connection.js');
+// const seedAll = require('./seeds/index.js')
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -15,3 +17,11 @@ app.use(routes);
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
 });
+
+
+//HMMMMMmmmmm
+// sequelize.sync({ force: true }).then(() => {
+//   app.listen(PORT, () => console.log(`Now listening on port ${PORT}!`)).then(()=> {
+//     seedAll();
+//   });
+// });
